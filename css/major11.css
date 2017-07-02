@@ -1,0 +1,58 @@
+.banner-pic {
+	width:100%;
+	height: 320px;
+	background: url(../images/03_major_orientation_banner.png) no-repeat center;
+}
+.main{
+	width: 100%;
+	margin-top: 85px;
+}
+.main-content{
+	margin: 0 auto;
+	height: 540px;
+	width:1200px;
+	border:3px solid #F5F5F5; 
+
+	padding: 3px;
+
+}
+.major1-title{
+	margin-top: 30px;
+	background-color: #FD8B25;
+}
+.major1-sub-title1{
+	margin:15px 50px;
+}
+.major1-sub-title2{
+	margin-top: 8px;
+    margin-right: 30px;
+    float: right;
+}
+.major1-text-left{
+	display: inline-block;
+	width: 60%;
+	/*float: left;*/
+}
+.major1-text-right {
+    padding-top: 37px;
+    display: inline-block;
+    width: 27%;
+    float: right;
+    padding-right: 30px;
+}
+.major1-text-left strong {
+	padding-left: 7px;
+    padding-right: 7px;
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 40px;
+    background-color: #FD8B25;
+    color: white;
+}
+.major1-text-left p{
+	margin-top: 7px;
+	margin-left: 15px;
+	text-indent: 2em;
+
+}
+

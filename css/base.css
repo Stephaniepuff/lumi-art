@@ -1,0 +1,254 @@
+.banner {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1200px;
+}
+.nav{
+	background-color: #313131;
+	text-align: center;
+}
+.logo a img{
+	display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-item,
+.nav-item a{
+	width: 165px;
+    height: 39px;
+    line-height: 40px;
+    display: inline-block;
+}
+.nav-item a img{
+	margin-top: 13px;
+    margin-right: 10px;
+}
+.menu li a:hover,.menu li a.cur{
+	color: black;
+    background: url(../images/01_index_top_nav_button_background_color.png) no-repeat;
+    background-size: 165px 40px;
+}
+
+.menu{
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.pic-wall{
+
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.pic-wall-pic{
+	float:left;
+	width: 25%;
+}
+.contact-us{
+	height: 215px;
+	width: 100%;
+	min-width: 1200px;
+	background: url(../images/01_index_contact_us_background_image.png) no-repeat center;
+}
+.contact-us-container{
+	margin: 0 auto;
+	width: 960px;
+}
+.contact-us-left{
+	margin-top: 45px;
+	float:left;
+	width: 67%;
+	display: inline-block;
+}
+.contact-us-right{
+	margin-top: 30px;
+	float: right;
+	width:38%;
+	display: inline-block;
+}
+.contact-us-left-title{
+	margin-bottom: 18px;
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+.contact-us-icon{
+	width: 14px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+.contact-us-details {
+	margin: 0 auto;
+	color: white;
+}
+.contact-us-details{
+	text-align: left;
+	display: block;
+	font-size: 14px;
+}
+.contact-us-details li{
+	width: 100%;
+	font-size: 10px;
+	float: left;
+	margin-top: -8px;
+}
+.contact-us-code{
+	margin-left: 10px;
+}
+.contact-us-right p{
+	color: white;
+
+}
+.contact-us-right1{
+	float: left;
+}
+.contact-us-right{
+	margin-top: 45px;
+	width: 25%;
+	float: right;
+}
+.contact-us-right2{
+	float: right;
+}
+.contact-us-right p{
+	font-size: 12px;
+	margin-left: 10px;
+	text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    background-color: #313131;
+    border-radius: 15px;
+}
+.contact-us-details p{
+	font-size: 12px;
+    display: inline;
+    line-height: 30px;
+    height: 30px;
+}
+.examples_body {
+	overflow: hidden;
+    width: 100%;
+    min-width: 1200px;
+    margin: 80px 0 0 auto;
+    clear: both;
+    position: relative;
+}
+
+.bx_wrap ul img { border: 2px solid #DDD; }
+
+.bx_wrap a.prev {
+	width: 27px;
+	
+	line-height: 17px;
+	outline-style: none;
+	outline-width: 0;
+	position: absolute;
+	top: 126px;
+	left:5px;
+	text-indent: -9999px;
+	background: url(../images/06_successful_case_icon_1.png) no-repeat;z-index: 9999;
+	background-size: 100%;
+}
+.bx_wrap a.prev:hover {
+	background: url(../images/06_successful_case_icon_selected_1.png) no-repeat;z-index: 9999;
+	background-size: 100%;
+}
+.bx_wrap a.next {
+	width: 27px;
+	
+	line-height: 17px;
+	top: 126px;
+    right: 5px;
+	outline-style: none;
+	outline-width: 0;
+	position: absolute;
+	text-indent: -9999px;
+	background: url(../images/06_successful_case_icon_2.png) no-repeat ;z-index: 9999;
+	background-size: 100%;
+}
+.bx_wrap a.next:hover {
+	background: url(../images/06_successful_case_icon_selected_2.png) no-repeat;z-index: 99999;
+	background-size: 100%;
+}
+#example2 li{
+	position: relative;
+	width: 410px;
+	overflow: hidden;}
+
+#example2 li:hover:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+  -webkit-box-shadow:inset 0 0 100px #000;  
+  -moz-box-shadow:inset 0 0 100px #000;  
+  box-shadow:inset 0 0 100px #000;        
+}
+
+
+
+#example2 li:hover .news{
+	display: block;
+}
+
+
+
+
+#example2{
+			width: 100%;
+			margin-left: -205px;
+		}
+
+
+
+
+
+			#example2 li img{
+				border:none;
+				/*width: 100%*/
+
+			}
+			.bx_container{
+				margin: 0 auto;
+    			width: 1920px;
+				height: 300px;
+				overflow: hidden;
+			}	
+
+.news{
+	display:none;
+	top: 75px;
+	z-index: 11;
+	width: 400px;
+	position: absolute;
+	text-align: center;
+}	
+.news {
+	color: #DDD;
+}
+.news-hover-text p{
+	font-size: 12px;
+	    width: 300px;
+	    color: #ddd;
+}
+.news-hover-text-time{
+	color:#ddd;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.news-hover-text{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
